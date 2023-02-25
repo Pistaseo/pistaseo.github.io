@@ -1,0 +1,562 @@
+
+.hello{
+    position: relative;
+    font-size: 100px;
+    top: 1em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.1em;
+  
+  }
+  
+  .welcometext{
+    position: relative;
+    width: 500px;
+    text-align: justify;
+    color: var(--text);
+    top: 7em;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  
+  
+  .welcome2{
+    position: relative;
+    width: 500px;
+    text-align: justify;
+    color: var(--text);
+    top: 9em;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  
+  .welcome3{
+    position: relative;
+    width: 500px;
+    text-align: justify;
+    color: var(--text);
+    top: 8em;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  
+  .explorelink{
+    color: #b348ff;
+    text-decoration: none;
+  }
+  
+  .tablet{
+    position: relative;
+    height: 514px;
+    width: 629px;
+    top: -20rem;
+    left: 42em;
+    animation: move 12s infinite 0s;
+  
+  }
+  
+  
+  @keyframes move {
+  
+    0%{
+      top: -40rem;
+    }
+    25%{
+      top: -39rem;
+    }
+    50%{
+      top: -40rem;
+    }
+    75%{
+      top: -39rem;
+    
+    }
+    100%{
+      top: -40rem;
+    }
+    
+  }
+  
+  
+  
+  
+  .ellipse-2{
+    position: relative;
+    background-color: var(--primary);
+    filter: blur(20px);
+    border-radius: 50%;
+    height: 20px;
+    top: -29rem;
+    width: 550px;
+    left: 20em;
+    animation: glow 12s infinite 0s;
+  }
+  
+  @keyframes glow {
+  
+    0%{
+      filter: blur(50px);
+    }
+    25%{
+       filter: blur(20px);
+    }
+    50%{
+      filter: blur(50px);
+    }
+    75%{
+       filter: blur(20px);
+    
+    }
+    100%{
+      filter: blur(50px);
+    }
+    
+  }
+  
+  .ourteam{
+    position: relative;
+    font-size: 40px;
+    top: 6em;
+    margin-left: 2em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.1em;
+  }
+  
+  .teamdesc{
+    position: relative;
+    width: 450px;
+    text-align: justify;
+    margin-left: 5em;
+    color: var(--text);
+    top: 15em;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  
+
+.why{
+  position: relative;
+  font-size: 40px;
+  top: 5em;
+  margin-left: 2em;
+  background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+letter-spacing: -0.1em;
+}
+
+
+
+
+  @media only screen and (max-width: 1000px) {
+
+
+
+    .hello{
+      position: relative;
+      font-size: 100px;
+      top: 2em;
+      background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.1em;
+    
+    }
+    
+    .welcometext{
+      position: relative;
+      width: 350px;
+      text-align: justify;
+      color: rgb(239, 222, 249);
+      top: 12em;
+      font-size: 18px;
+      font-weight: 200;
+    }
+    
+    
+    .welcome2{
+      position: relative;
+      width: 350px;
+      text-align: justify;
+      color: rgb(239, 220, 249);
+      top: 11em;
+      font-size: 18px;
+      font-weight: 200;
+    }
+    
+    .welcome3{
+      position: relative;
+      width: 350px;
+      text-align: justify;
+      color: rgb(236, 217, 247);
+      top: 12em;
+      font-size: 18px;
+      font-weight: 200;
+    }
+    
+    .explorelink{
+      color: #b348ff;
+      text-decoration: none;
+    }
+    
+    .tablet{
+      position: relative;
+      height: 416px;
+      width: 493.81px;
+      top: -30rem;
+      left: 30em;
+      animation: move 12s infinite 0s;
+    
+    }
+    
+    
+    @keyframes move {
+    
+      0%{
+        top: -50rem;
+      }
+      25%{
+        top: -49rem;
+      }
+      50%{
+        top: -50rem;
+      }
+      75%{
+        top: -49rem;
+      
+      }
+      100%{
+        top: -50rem;
+      }
+      
+    }
+    
+    
+    
+    
+    .ellipse-2{
+      position: relative;
+      background-color: var(--primary);
+      filter: blur(20px);
+      border-radius: 50%;
+      height: 20px;
+      top: -40rem;
+      width: 550px;
+      left: 15em;
+      animation: glow 12s infinite 0s;
+    }
+    
+    @keyframes glow {
+    
+      0%{
+        filter: blur(50px);
+      }
+      25%{
+         filter: blur(20px);
+      }
+      50%{
+        filter: blur(50px);
+      }
+      75%{
+         filter: blur(20px);
+      
+      }
+      100%{
+        filter: blur(50px);
+      }
+      
+    }
+    
+    .ourteam{
+      position: relative;
+      font-size: 40px;
+      top: 6em;
+      margin-left: 2em;
+      background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.1em;
+    }
+    
+    .teamdesc{
+      position: relative;
+      width: 450px;
+      text-align: justify;
+      margin-left: 5em;
+      color: rgb(198, 173, 211);
+      top: 15em;
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+
+
+
+  }
+
+  @media only screen and (max-width: 700px) {
+
+
+    .hello{
+      position: relative;
+      font-size: 80px;
+      top: 15em;
+      background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.1em;
+    
+    }
+    
+    .welcometext{
+      position: relative;
+      width: 20em;
+      text-align: justify;
+      color: rgb(198, 173, 211);
+      top: 50em;
+      font-size: 24px;
+      font-weight: 300;
+    }
+    
+    
+    .welcome2{
+      position: relative;
+      width: 300px;
+      text-align: justify;
+      color: rgb(198, 173, 211);
+      top: 40em;
+      font-size: 24px;
+      font-weight: 300;
+    }
+    
+    .welcome3{
+      position: relative;
+      width: 300px;
+      text-align: justify;
+      color: rgb(198, 173, 211);
+      top: 60em;
+      font-size: 24px;
+      font-weight: 300;
+    }
+    
+    .explorelink{
+      color: #b348ff;
+      text-decoration: none;
+    }
+    
+    .tablet{
+      position: relative;
+      height: 414px;
+      width: 529px;
+      top: -100em;
+      left: 1em;
+      animation: move 12s infinite 0s;
+    
+    }
+    
+    
+    @keyframes move {
+    
+      0%{
+        top: -80rem;
+      }
+      25%{
+        top: -79rem;
+      }
+      50%{
+        top: -80rem;
+      }
+      75%{
+        top: -79rem;
+      
+      }
+      100%{
+        top: -80rem;
+      }
+      
+    }
+    
+    
+    
+    
+    .ellipse-2{
+      position: relative;
+      background-color: var(--primary);
+      filter: blur(20px);
+      border-radius: 50%;
+      height: 20px;
+      top: -70rem;
+      width: 550px;
+      left: 2em;
+      animation: glow 12s infinite 0s;
+    }
+    
+    @keyframes glow {
+    
+      0%{
+        filter: blur(50px);
+      }
+      25%{
+         filter: blur(20px);
+      }
+      50%{
+        filter: blur(50px);
+      }
+      75%{
+         filter: blur(20px);
+      
+      }
+      100%{
+        filter: blur(50px);
+      }
+      
+    }
+    
+    .ourteam{
+      position: relative;
+      font-size: 40px;
+      top: 35em;
+      margin-left: 1em;
+      background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.1em;
+    }
+    
+    .teamdesc{
+      position: relative;
+      width: 450px;
+      text-align: justify;
+      margin-left: 1.5em;
+      color: rgb(198, 173, 211);
+      top: 60em;
+      font-size: 24px;
+      font-weight: 300;
+    }
+    
+
+  }
+
+
+  @media only screen and (max-width: 500px) {
+
+
+
+
+
+    .tablet{
+      position: relative;
+      height: 314px;
+      width: 429px;
+      top: -100em;
+      left: -0.5em;
+      animation: move 12s infinite 0s;
+    
+    }
+    
+    
+    @keyframes move {
+    
+      0%{
+        top: -70rem;
+      }
+      25%{
+        top: -69rem;
+      }
+      50%{
+        top: -70rem;
+      }
+      75%{
+        top: -69rem;
+      
+      }
+      100%{
+        top: -70rem;
+      }
+      
+    }
+    
+    
+    
+    
+    .ellipse-2{
+      position: relative;
+      background-color: var(--primary);
+      filter: blur(20px);
+      border-radius: 50%;
+      height: 20px;
+      top: -80rem;
+      width: 400px;
+      left: 0.4em;
+      animation: glow 12s infinite 0s;
+    }
+    
+    @keyframes glow {
+    
+      0%{
+        filter: blur(50px);
+      }
+      25%{
+         filter: blur(20px);
+      }
+      50%{
+        filter: blur(50px);
+      }
+      75%{
+         filter: blur(20px);
+      
+      }
+      100%{
+        filter: blur(50px);
+      }
+      
+    }
+
+
+
+    
+    .welcometext{
+      position: relative;
+      width: 15em;
+      text-align: justify;
+      color: rgb(198, 173, 211);
+      top: 50em;
+      font-size: 24px;
+      font-weight: 300;
+    }
+    
+    
+    .welcome2{
+      position: relative;
+      width: 300px;
+      text-align: justify;
+      color: rgb(198, 173, 211);
+      top: 40em;
+      font-size: 24px;
+      font-weight: 300;
+    }
+    
+    .welcome3{
+      position: relative;
+      width: 300px;
+      text-align: justify;
+      color: rgb(198, 173, 211);
+      top: 60em;
+      font-size: 24px;
+      font-weight: 300;
+    }
+
+
+
+
+  }

@@ -1,0 +1,145 @@
+.process{
+    position: relative;
+    font-size: 100px;
+    top: 16em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.1em;
+}
+
+
+.note5{
+    position: relative;
+  font-size: 18px;
+  left: 0.5em;
+  width: 600px;
+  letter-spacing: -0.1em;
+  text-align: justify;
+  top: 90em;
+  font-weight: 200;
+  color: var(--text);
+}
+
+
+.discovery{
+  position: relative;
+  top: 70em;
+  color: #9224FF;
+  font-size: 24px;
+  font-weight: 500;
+  left: 3em;
+}
+
+.discoverytext{
+  position: relative;
+  font-size: 18px;
+  left: 1em;
+  width: 600px;
+  letter-spacing: -0.1em;
+  text-align: justify;
+  top: 95em;
+  font-weight: 200;
+  color: var(--text);
+}
+
+.strategy{
+  position: relative;
+  top: 73em;
+  color: #9224FF;
+  font-size: 24px;
+  font-weight: 500;
+  left: 3em;
+}
+
+.strategytext{
+  position: relative;
+  font-size: 18px;
+  left: 1em;
+  width: 600px;
+  letter-spacing: -0.1em;
+  text-align: justify;
+  top: 99em;
+  font-weight: 200;
+  color: var(--text);
+}
+
+
+
+.implementation{
+  position: relative;
+  top: 76em;
+  color: #9224FF;
+  font-size: 24px;
+  font-weight: 500;
+  left: 3em;
+}
+
+.implementationtext{
+  position: relative;
+  font-size: 18px;
+  left: 1em;
+  width: 600px;
+  letter-spacing: -0.1em;
+  text-align: justify;
+  top: 103em;
+  font-weight: 200;
+  color: var(--text);
+}
+
+
+
+.reporting{
+  position: relative;
+  top: 79em;
+  color: #9224FF;
+  font-size: 24px;
+  font-weight: 500;
+  left: 3em;
+}
+
+.reportingtext{
+  position: relative;
+  font-size: 18px;
+  left: 1em;
+  width: 600px;
+  letter-spacing: -0.1em;
+  text-align: justify;
+  top: 107em;
+  font-weight: 200;
+  color: var(--text);
+}
+
+.continous{
+  position: relative;
+  top: 82em;
+  color: #9224FF;
+  font-size: 24px;
+  font-weight: 500;
+  left: 3em;
+}
+
+.continoustext{
+  position: relative;
+  font-size: 18px;
+  left: 1em;
+  width: 600px;
+  letter-spacing: -0.1em;
+  text-align: justify;
+  top: 111em;
+  font-weight: 200;
+  color: var(--text);
+}
+
+.note6{
+  position: relative;
+  font-size: 18px;
+  left: 1em;
+  width: 600px;
+  letter-spacing: -0.1em;
+  text-align: justify;
+  top: 115em;
+  font-weight: 200;
+  color: var(--text);
+}

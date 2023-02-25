@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 500px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+    position: relative;
+    top: 25em;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  max-height: 0;
+  width: 780px;
+  text-align: justify;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.uxdesign{
+    position: relative;
+    top: 12em;
+    /* padding: 3em; */
+    width: 800px;
+    height: 80px;
+    font-size: 30px;
+    letter-spacing: -0.1em;
+    background: radial-gradient(50% 50% at 50% 50%, #950FFF 51.56%, #B56BFE 100%);
+    color: #010101;
+    font-weight: 600;
+   transition: all 0.4s;
+    border-radius: 100px;
+  }
+
+  .description{
+    font-size: 24px;
+    color: #950FFF;
+  }
+    
+
+
+
+
+  .products{
+    position: relative;
+    font-size: 100px;
+    top: 4em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.1em;
+  }
+  
+  
+  .productstext{
+    position: relative;
+    width: 500px;
+    text-align: justify;
+    color: rgb(198, 173, 211);
+    top: 25em;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  
+  .phone{
+    position: relative;
+    height: 514px;
+    width: 629px;
+    top: -6rem;
+    left: 42em;
+    animation: move-2 12s infinite 0s;
+  }
+  
+  @keyframes move-2 {
+  
+  0%{
+    top: -7rem;
+  }
+  25%{
+    top: -6rem;
+  }
+  50%{
+    top: -7rem;
+  }
+  75%{
+    top: -6rem;
+  
+  }
+  100%{
+    top: -7rem;
+  }
+  
+  }
+  
+  
+  
+  .ellipse-3{
+    position: relative;
+    background-color: var(--primary);
+    filter: blur(20px);
+    border-radius: 50%;
+    height: 20px;
+    top: 0em;
+    width: 550px;
+    left: 20em;
+    animation: glow-2 12s infinite 0s;
+  }
+  
+  @keyframes glow-2 {
+  
+  0%{
+    filter: blur(50px);
+  }
+  25%{
+     filter: blur(20px);
+  }
+  50%{
+    filter: blur(50px);
+  }
+  75%{
+     filter: blur(20px);
+  
+  }
+  100%{
+    filter: blur(50px);
+  }
+  }
+  
+  
+  .productsoffered{
+    position: relative;
+    font-size: 40px;
+    top: 20em;
+    font-weight: 600;
+    /* margin-left: 2em; */
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%,  #9224FF 43.57%, #C58AFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.1em;
+  }
+  
+  .note{
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.1em;
+    text-align: justify;
+    top: 46em;
+    width: 800px;
+    color: #C293FF;
+  }
+  
+  
+  .uxdesign{
+    position: relative;
+    top: 12em;
+    /* padding: 3em; */
+    width: 800px;
+    height: 80px;
+    font-size: 30px;
+    letter-spacing: -0.1em;
+    background: radial-gradient(50% 50% at 50% 50%, #950FFF 51.56%, #B56BFE 100%);
+    color: #010101;
+    font-weight: 600;
+   transition: all 0.4s;
+    border-radius: 100px;
+  }
+  
+  /* .uxdesign:hover{
+    border-radius: 10px;
+    height: 100px;
+    width: 900px;
+  } */
+  
+  .seo{
+    position: relative;
+    top: 25em;
+    width: 800px;
+    height: 80px;
+    font-size: 30px;
+    letter-spacing: -0.1em;
+    background: radial-gradient(50% 50% at 50% 50%, #950FFF 51.56%, #B56BFE 100%);
+    color: #010101;
+    font-weight: 600;
+   transition: all 0.4s;
+    border-radius: 100px;
+  }
+  
+  
+  .branding{
+    position: relative;
+    top: 38em;
+    width: 800px;
+    height: 80px;
+    font-size: 30px;
+    letter-spacing: -0.1em;
+    background: radial-gradient(50% 50% at 50% 50%, #950FFF 51.56%, #B56BFE 100%);
+    color: #010101;
+    font-weight: 600;
+   transition: all 0.4s;
+    border-radius: 100px;
+  }
+  
+  .branding:hover{
+    border-radius: 10px;
+  }
+  
+  
+  .seo:hover{
+    border-radius: 10px;
+  }
+  
+  .uxdesign:hover{
+    border-radius: 10px;
+  }
+
+
+
+  .description{
+    position: relative;
+    top: 15em;
+    left: 7.8em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    color: #B56BFE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .uxdescription{
+    position: relative;
+    top: 26em;
+    /* left: 8.5em; */
+    color: #dcbaff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+  }
+  
+  
+  .deliverables{
+    position: relative;
+    top: 18em;
+    left: 7.8em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    color: #B56BFE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .uxdeliverables{
+    position: relative;
+    top: 31em;
+    /* left: 8.5em; */
+    color: #dcbaff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+  }
+  
+  .uxgisth{
+    position: relative;
+    top: 21em;
+    left: 7.8em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    color: #B56BFE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  
+  .uxgist{
+    position: relative;
+    top: 36em;
+    /* left: 8.5em; */
+    color: #dcbaff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+  }
+  
+  
+  .seodescriptionh{
+    position: relative;
+    top: 28em;
+    left: 7.8em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    color: #B56BFE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .seodescription{
+    position: relative;
+    top: 48em;
+    /* left: 8.5em; */
+    color: #dcbaff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+  }
+  
+  
+  .seodeliverablesh{
+    position: relative;
+    top: 31em;
+    left: 7.8em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    color: #B56BFE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .seodeliverables{
+    position: relative;
+    top: 53em;
+    /* left: 8.5em; */
+    color: #dcbaff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+  }
+  
+  .seovalueh{
+    position: relative;
+    top: 34em;
+    left: 7.8em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    color: #B56BFE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  
+  .seovalue{
+    position: relative;
+    top: 58em;
+    /* left: 8.5em; */
+    color: #dcbaff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+  }
+
+
+
+  .brandingh{
+    position: relative;
+    top: 41em;
+    left: 7.8em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    color: #B56BFE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .brandingdescription{
+    position: relative;
+    top: 69.5em;
+    /* left: 8.5em; */
+    color: #dcbaff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+  }
+  
+  
+  .brandingdeliverablesh{
+    position: relative;
+    top: 44em;
+    left: 7.8em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    color: #B56BFE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .brandingdeliverables{
+    position: relative;
+    top: 74.5em;
+    /* left: 8.5em; */
+    color: #dcbaff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+  }
+  
+  .brandingvalueh{
+    position: relative;
+    top: 47em;
+    left: 7.8em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+    color: #B56BFE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  
+ 
+  .brandingvalue{
+    position: relative;
+    top: 79.5em;
+    /* left: 8.5em; */
+    color: #dcbaff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    width: 800px;
+  }
+
+
+
+
+</style>
+<body>
+
+
+    
+<h2>Accordion</h2>
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion uxdesign  d-flex justify-content-center align-items-center mx-auto ">UX Design</button>
+<div class="panel">
+  
+  
+    <h4 class="description mx-auto ">Description</h4>
+    <p class="uxdescription mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+ 
+ 
+    <h4 class="deliverables mx-auto ">Deliverables</h4>
+    <p class="uxdeliverables mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio lorem34 voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+
+
+
+    <h4 class="uxgisth mx-auto ">Value for your business</h4>
+    <p class="uxgist mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+</div>
+    
+  <div data-aos="fade-up" data-aos-duration="3000">
+   
+  
+  
+    <!-- <button class="seo  d-flex justify-content-center align-items-center mx-auto " onclick="myfunc1()">SEO</button>
+    
+    <h4 class="seodescriptionh mx-auto ">Description</h4>
+    <p class="seodescription mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+  
+  
+    <h4 class="seodeliverablesh mx-auto ">Deliverables</h4>
+    <p class="seodeliverables mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+  
+  
+  
+    <h4 class="seovalueh mx-auto ">Value for your business</h4>
+    <p class="seovalue mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+  
+  
+    <button class="branding  d-flex justify-content-center align-items-center mx-auto " onclick="myfunc1()">Branding</button>
+  
+    <h4 class="brandingh mx-auto ">Description</h4>
+    <p class="brandingdescription mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+  
+  
+    <h4 class="brandingdeliverablesh mx-auto ">Deliverables</h4>
+    <p class="brandingdeliverables mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+  
+  
+  
+    <h4 class="brandingvalueh mx-auto ">Value for your business</h4>
+    <p class="brandingvalue mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p> -->
+
+
+
+
+
+<!-- 
+  <div data-aos="fade-up" data-aos-duration="3000">
+  <button class="uxdesign  d-flex justify-content-center align-items-center mx-auto " onclick="myfunc1()">UX Design</button>
+
+
+       <h4 class="description mx-auto ">Description</h4>
+      <p class="uxdescription mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+   
+   
+      <h4 class="deliverables mx-auto ">Deliverables</h4>
+      <p class="uxdeliverables mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio lorem34 voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+
+
+ 
+      <h4 class="uxgisth mx-auto ">Value for your business</h4>
+      <p class="uxgist mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+
+  <button class="seo  d-flex justify-content-center align-items-center mx-auto " onclick="myfunc1()">SEO</button>
+  
+  <h4 class="seodescriptionh mx-auto ">Description</h4>
+  <p class="seodescription mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+
+
+  <h4 class="seodeliverablesh mx-auto ">Deliverables</h4>
+  <p class="seodeliverables mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+
+
+
+  <h4 class="seovalueh mx-auto ">Value for your business</h4>
+  <p class="seovalue mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+
+
+  <button class="branding  d-flex justify-content-center align-items-center mx-auto " onclick="myfunc1()">Branding</button>
+
+  <h4 class="brandingh mx-auto ">Description</h4>
+  <p class="brandingdescription mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+
+
+  <h4 class="brandingdeliverablesh mx-auto ">Deliverables</h4>
+  <p class="brandingdeliverables mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+
+
+
+  <h4 class="brandingvalueh mx-auto ">Value for your business</h4>
+  <p class="brandingvalue mx-auto  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat consequuntur magnam quia ea asperiores est fugit optio voluptatem omnis eos atque rem aperiam ad, iste cum veniam laudantium ipsa maxime nesciunt minima cupiditate consectetur!</p>
+
+
+
+  <h2 id="pricing" class="pricing mx-5  text-start">Pricing</h2>
+  <p class="pricingtext mx-5 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus excepturi facere beatae ex ipsum quidem officia obcaecati modi consequuntur tempora. Esse saepe perferendis deleniti autem, odit praesentium? Enim explicabo amet aliquam debitis commodi minus.</p> -->
+
+
+</body>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+    </script>
+    
+</html>

@@ -1,0 +1,103 @@
+.trynow{
+    position: relative;
+    font-size: 100px;
+    top: 9em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.1em;
+}
+
+
+.note4{
+    position: relative;
+  font-size: 18px;
+  left: 0.5em;
+  width: 600px;
+  letter-spacing: -0.1em;
+  text-align: justify;
+  top: 52em;
+  font-weight: 200;
+  color: var(--text);
+}
+
+
+.emailus{
+    position: relative;
+    top: 27em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #9224FF 43.57%, #bc7aff 100%);
+    height: 3em;
+    width: 20em;
+    border-radius: 100px;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.1em;
+}
+
+.or{
+    position: relative;
+    top: 38em;
+    color: #ecdaff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.1em;
+}
+
+.messageusinsta{
+    position: relative;
+    top: 30em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #9224FF 43.57%, #bc7aff 100%);
+    height: 3em;
+    width: 20em;
+    border-radius: 100px;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.1em;
+}
+
+
+.eitherway{
+    position: relative;
+    top: 65em;
+    color: var(--text);
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: -0.1em;
+}
+
+
+.thankyou{
+    position: relative;
+    font-size: 80px;
+    top: 1em;
+color: #000000;
+  letter-spacing: -0.1em;
+}
+
+.footer{
+    position: relative;
+    bottom: -150em;
+    height: 20em;
+    width: 100vw;
+    background-color: #a813ff;
+}
+
+.copyright{
+    position: relative;
+    color: black;
+    font-weight: 400;
+    font-style: 18px;
+    bottom: -12em;
+}
+
+
+.freedemo{
+    position: relative;
+    color: #a813ff;
+    font-size: 80px;
+    top: 13em;
+    letter-spacing: -0.1em;
+}

@@ -1,0 +1,76 @@
+
+.pricing{
+    position: relative;
+    font-size: 100px;
+    top: 4em;
+    background: radial-gradient(80.64% 52.3% at 50.13% 54.6%, #C293FF 0%, #9224FF 43.57%, #C58AFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.1em;
+  }
+
+  
+.pricingtext{
+    position: relative;
+  font-size: 18px;
+  left: 0.5em;
+  width: 600px;
+  letter-spacing: -0.1em;
+  text-align: justify;
+  top: 24em;
+  font-weight: 200;
+  color: var(--text);
+}
+
+
+
+.solitary{
+  position: relative;
+  color: #9e2fff;
+  font-size: 40px;
+  letter-spacing: -0.1em;
+  top: 15em;
+}
+
+
+.solitarybox1{
+  position: relative;
+  margin: 1em;
+  top: 40em;
+  height: 35em;
+  border: 2px solid #b752ff;
+  border-radius: 30px;
+  width: 20em;
+  background-color: rgb(18, 0, 38);
+}
+
+.uxsph{
+  font-size: 30px;
+  height: 3em;
+  border-top-right-radius: 27px;
+  border-top-left-radius: 27px;
+  background: radial-gradient(50% 50% at 50% 50%, #950FFF 51.56%, #ab56ff 100%);
+  color: black;
+  font-weight: 700;
+}
+
+.uxspul{
+  font-weight: 200;
+  color: var(--text);
+  font-size: 20px;
+ 
+}
+
+.uxsp{
+  position: relative;
+  bottom: -1em;
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+
+  background: radial-gradient(50% 50% at 50% 50%, #950FFF 51.56%, #B56BFE 100%);
+}
+
+
+
